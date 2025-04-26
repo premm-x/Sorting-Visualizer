@@ -27,7 +27,11 @@ The following sorting algorithms are implemented and visualized in this project:
 ## Features
 
 - Interactive visualization of sorting algorithms.
-- Detail's of each algorithm.
+- Details of each algorithm.
 - Adjustable speed and size of the array for visualization.
 
 This project is a great tool for learning and understanding sorting algorithms in a visual and engaging way.
+
+## Project Link
+
+You can find the project on [GitHub](https://github.com/your-username/sorting-visualizer).
