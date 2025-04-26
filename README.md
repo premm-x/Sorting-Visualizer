@@ -34,4 +34,4 @@ This project is a great tool for learning and understanding sorting algorithms i
 
 ## Project Link
 
-You can find the project on [here](https://sorting-visualizer-xmlb.onrender.com/).
+You can find the project [here](https://sorting-visualizer-xmlb.onrender.com/).
