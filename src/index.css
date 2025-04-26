@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-neutral-950 text-neutral-50 min-h-screen;
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-neutral-900;
+  }
+  
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white focus:ring-primary;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary hover:bg-secondary-dark text-white focus:ring-secondary;
+  }
+  
+  .btn-accent {
+    @apply bg-accent hover:bg-accent-dark text-white focus:ring-accent;
+  }
+  
+  .btn-outline {
+    @apply border border-neutral-600 hover:bg-neutral-800 focus:ring-neutral-400;
+  }
+  
+  .btn-sm {
+    @apply px-3 py-1 text-sm;
+  }
+  
+  .slider {
+    @apply w-full h-2 bg-neutral-700 rounded-lg appearance-none cursor-pointer;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    @apply appearance-none w-4 h-4 rounded-full bg-primary hover:bg-primary-light cursor-pointer transition-colors;
+  }
+}
